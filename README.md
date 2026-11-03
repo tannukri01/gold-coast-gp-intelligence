@@ -8,6 +8,10 @@ The Gold Coast GP Intelligence Tool is a Python-based project designed to collec
 
 It demonstrates practical skills in web scraping, data processing, AI-assisted summarisation, and interactive dashboard development.
 
+## Live Demo
+
+🔗 [Click here to view the live dashboard](https://gold-coast-gp-intelligence.streamlit.app/)
+
 ## Key Features
 
 - **Web Scraping:** Extract publicly available GP information using Python.
@@ -35,59 +39,24 @@ gold-coast-gp-intelligence/
 ├── app/
 ├── prompts/
 ├── requirements.txt
-└── README.md
-```
+└── README.mdInstallation and Setup1. Clone the repositoryBashgit clone https://github.com/tannukri01/gold-coast-gp-intelligence.git
+cd gold-coast-gp-intelligence2. Create and activate a virtual environmentBashpython -m venv venv
+venv\Scripts\activate3. Install dependenciesBashpip install -r requirements.txt4. Launch the Streamlit dashboardBashstreamlit run app/app.pyAI ImplementationAI tools were used for:
+Project planning and structure design
+Cleaning and standardising specialty/gender data
+Generating consistent professional summaries
+Improving dashboard layout
+All key prompts and iterations are documented in the prompts/ folder.Responsible Data Handling
+Use publicly available information responsibly.
+Respect website terms of service and access policies.
+Verify generated summaries against their original sources.
+Avoid presenting incomplete or unverified information as fact.
+Skills DemonstratedPython Programming · Web Scraping · Data Cleaning · Data Processing · AI-Assisted Automation · Prompt Engineering · Streamlit Dashboard DevelopmentDisclaimerThis project is intended for educational and data-intelligence purposes. Information may be incomplete or outdated and should be verified with the relevant medical practice.Developed by Tannu Kumari
 
-## Installation and Setup
+Python | Web Scraping | AI & Automation | Data Intelligencetext---
 
-**1. Clone the repository**
+Isse `README.md` file mein **pura replace** kar do, save karo, aur GitHub pe push kar do:
 
-```bash
-git clone <your-github-repository-url>
-cd gold-coast-gp-intelligence
-```
-
-**2. Create and activate a virtual environment**
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-**3. Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-**4. Launch the Streamlit dashboard**
-
-```bash
-streamlit run app/app.py
-```
-
-## AI Implementation
-
-AI tools can assist in standardising collected information and generating consistent summaries based on available source data.
-
-The summarisation process is designed to maintain a professional tone while avoiding unsupported claims about doctors' qualifications, experience, or medical expertise.
-
-## Responsible Data Handling
-
-- Use publicly available information responsibly.
-- Respect website terms of service and access policies.
-- Verify generated summaries against their original sources.
-- Avoid presenting incomplete or unverified information as fact.
-
-## Skills Demonstrated
-
-Python Programming · Web Scraping · Data Cleaning · Data Processing · AI-Assisted Automation · Prompt Engineering · Streamlit Dashboard Development
-
-## Disclaimer
-
-This project is intended for educational and data-intelligence purposes. Information may be incomplete or outdated and should be verified with the relevant medical practice.
-
----
-
-**Developed by Tannu Kumari**  
-*Python | Web Scraping | AI & Automation | Data Intelligence*
+```powershell
+git add README.md
+git commit -m "Added live demo link to README"
